@@ -1,1 +1,29 @@
 
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0">
+
+
+<img id="liveagent_button_online_573N000000000Jd" style="display: none; border: 0px none; cursor: pointer" onclick="liveagent.startChat('573N000000000Jd')" src="https://reforgdev1-mlliveagent.cs6.force.com/liveAgent/resource/1476816245000/online_v01" /><img id="liveagent_button_offline_573N000000000Jd" style="display: none; border: 0px none; " src="https://reforgdev1-mlliveagent.cs6.force.com/liveAgent/resource/1476816245000/offline_v01" />
+<script type="text/javascript">
+if (!window._laq) { window._laq = []; }
+window._laq.push(function(){liveagent.showWhenOnline('573N000000000Jd', document.getElementById('liveagent_button_online_573N000000000Jd'));
+liveagent.showWhenOffline('573N000000000Jd', document.getElementById('liveagent_button_offline_573N000000000Jd'));
+});</script>
+
+
+<script type='text/javascript' src='https://service.force.com/lightning/lightning.out.js'></script>
+<script type='text/javascript' src='https://service.force.com/embeddedservice/204.0/esw.min.js'></script>
+<script type='text/javascript'>
+var initESW = function(gslbBaseUrl) {
+
+embedded_svc.settings.avatarImgURL = '';
+embedded_svc.settings.prechatBackgroundImgURL = '';
+embedded_svc.settings.waitingStateBackgroundImgURL = '';
+embedded_svc.settings.smallCompanyLogoImgURL = '';
+
+
+embedded_svc.settings.displayHelpButton = true; //Or false
+embedded_svc.settings.initialInteractionState = 'PRECHAT'; //Or 'WAITING'
+//embedded_svc.settings.onlineText = '...'; (defaults to Chat with an Expert, localized)
+//embedded_svc.settings.offlineText = '...'; (defaults to Agent Offline, localized)
+//embedded_svc.settings.onlineLoadingText = '...'; (defaults to Loading, localized)
+embedded_svc.init('https://dev1--REFORGDEV1.cs6.my.salesforce.com', 'https://d.la10cs.salesforceliveagent.com/chat', 'https://c.la10cs.salesforceliveagent.com/content', 'https://reforgdev1-mlliveagent.cs6.force.com/snapins', '572N000000000Cw', '00DN0000000AjsI', '573N000000000Jd', '204.0', gslbBaseUrl); }; if (!window.embedded_svc) { var s = document.createElement('script'); s.setAttribute('src', 'https://dev1--REFORGDEV1.cs6.my.salesforce.com/embeddedservice/204.0/esw.min.js'); s.onload = function() { initESW(null); }; document.body.appendChild(s);} else { initESW('https://dev1--REFORGDEV1.cs6.my.salesforce.com'); }</script>
